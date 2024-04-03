@@ -10,4 +10,4 @@ COPY . .
 
 RUN go build -o fizzbuzz .
 
-CMD ["./fizzbuzz"]
+CMD ["./fizzbuzz", "serve"]
